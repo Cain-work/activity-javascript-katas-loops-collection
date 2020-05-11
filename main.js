@@ -7,8 +7,10 @@
   console.log('%cKATA 1 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
   let counter = 1
+
   while (counter <= 20) {
-    console.log(counter)
+    if (counter <= 20)
+    console.log(counter) 
     counter += 1
   }
 
@@ -19,7 +21,12 @@
 ***/
 
   console.log('%cKATA 02 RESULTS:', 'background: darkblue; color: white; font-weight: bold;') // These console.logs are just to help make the console log better organized and more readable
-
+let counter2 = 2
+while(counter2 <= 20) { 
+  if (counter2 <= 20)
+  console.log(counter2)
+  counter2 += 2
+}
 
   /* Write your KATA 02 code in place of THIS comment. */
 
@@ -31,7 +38,13 @@
 ***/
 
   console.log('%cKATA 03 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
- 
+  let counter3 = 1
+
+  while (counter3 <= 20) {
+    if (counter3 <= 20)
+    console.log(counter3) 
+    counter3 += 2
+  }
 
   /* Write your KATA 03 code in place of THIS comment. */
 
@@ -43,7 +56,12 @@
 ***/
 
   console.log('%cKATA 04 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
-
+  let counter4 = 5
+  while(counter4 <= 100) { 
+    if (counter4 <= 100)
+    console.log(counter4)
+    counter4 += 5
+  }
 
   /* Write your KATA 04 code in place of THIS comment. */
 
@@ -55,8 +73,15 @@
 ***/
 
   console.log('%cKATA 05 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
-
-
+  let counter5 = 1
+  while (counter5 <= 100) {
+    if (counter5 <= 100)
+    const isSquare = Number.isInteger(Math.sqrt(counter5))
+  if (isSquare) {
+    console.log (isSquare)
+  }
+    counter5 += 1
+  }                        
   /* Write your KATA 05 code in place of THIS comment. */
 
 
@@ -67,7 +92,13 @@
 ***/
 
   console.log('%cKATA 06 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+  let counter6 = 20
 
+  while (counter6 >= 1) {
+    if ( counter6 =1)
+    console.log(counter6) 
+    counter -= 1
+  }
 
   /* Write your KATA 06 code in place of THIS comment. */
 
